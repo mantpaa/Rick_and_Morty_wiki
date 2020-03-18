@@ -18,7 +18,6 @@ function Character({match}) {
     const fetchItem = await fetch(`https://rickandmortyapi.com/api/character/${match.params.id}`);
     const item = await fetchItem.json();
     setItem(item);
-    //console.log(item);
   }
 
  

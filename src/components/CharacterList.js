@@ -37,28 +37,6 @@ function CharacterList() {
         ))}
         </Row>
       </Container>
-      {/* <CardDeck lg={6}>
-        {items.map(item => (
-          <Card key={item.id}>
-            <Link to={`/shop/${item.id}`}>
-            <Card.Img variant ="top" src={item.image} />
-            <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-            </Card.Body>
-            </Link>
-          </Card>
-        ))}
-      </CardDeck> */}
-{/*       
-      {items.map(item=> (
-        <h1 key={item.id}>
-          <Link to={`/shop/${item.id}`}>
-            <h4>{item.name}</h4>
-            <img src={item.image}></img>
-            </Link>
-         
-          </h1>
-      ))} */}
     </div>
   );
 }

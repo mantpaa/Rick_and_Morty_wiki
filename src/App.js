@@ -1,10 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import Nav from './Nav';
-//import About from './About';
-//import Shop from './Shop';
-//import ItemDetail from './ItemDetail';
+import Nav from './components/Nav';
 import CharacterList from './components/CharacterList';
 import Character from './components/Character';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,12 +12,6 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-
-        
-        {/* <Route path="/" exact component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/shop" exact component={CharacterList}/>
-        <Route path="/shop/:id" component={Character}/> */}
         <Route path="/" exact component={CharacterList}/>
         <Route path="/:id" component={Character}/>
         </Switch>
@@ -29,10 +20,6 @@ function App() {
   );
 }
 
-const Home = () => (
-  <div>
-    <h1>Home page</h1>
-  </div>
-);
+
 
 export default App;
