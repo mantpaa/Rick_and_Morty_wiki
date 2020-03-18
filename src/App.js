@@ -5,8 +5,8 @@ import Nav from './Nav';
 //import About from './About';
 //import Shop from './Shop';
 //import ItemDetail from './ItemDetail';
-import CharacterList from './CharacterList';
-import Character from './Character';
+import CharacterList from './components/CharacterList';
+import Character from './components/Character';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

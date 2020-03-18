@@ -7,7 +7,8 @@ function Nav() {
     color: 'white'
   };
   return (
-    <nav><img src={Logo}></img>
+    <nav>
+      <Link to="/"><img src={Logo}></img></Link>
       {/* <h3>Logo</h3>
       <ul className="nav-links">
         <Link style = {navStyle} to="/about">
